@@ -1,0 +1,9 @@
+{% extends "structure.html" %}
+
+{% block main %}
+  <h1>YOU ARE LOGGED IN</h1>
+  <br>
+  {{ message | safe}}
+  <br>
+  <a href="/logout"> Logout here</a>
+{% endblock main %}
